@@ -1,0 +1,40 @@
+Prerequisite
+
+1. VS code
+2. node.js
+	i> Install angular cli  --> npm install -g @angular/cli
+	
+	
+To create new project
+1. craete a workspace initial application  
+	i> npm new myapp
+2. Serve the application 
+	i> cd myapp
+	ii> ng serve
+	
+Angular :- Angular is a platform and framework for building client application in HTML and Typescript.	
+i> Basic building block of angular is -> NgModule
+ii> An app has atleast a root module that enables bootstraping.
+
+Component -> define views which are sets of screen elements that angular can choose among and modify according to program data and logic.
+			 Component uses services, which provide specific functionality not directly related to views. Service provider can be injected into component as dependencies, making your code modular, reusable and efficient.
+			 Both component and services are simply classes, with decorators that mark their type and provide metadata that tells angular how to use them.
+
+Main:-
+i> module
+ii> component 
+iii> services
+iv> decorators
+v> directive
+vi>Routing 
+vii>Dependency injection
+
+
+Display the list of heroes and display the highlighted hero.
+1. for using ngModel directive we need to import formmodules in app.module
+2. used ngIf
+
+
+Myapp2 ->As before, whenever a user clicks on a hero name, the hero detail appears below the hero list. Now the HeroDetailComponent is presenting those details instead of the HeroesComponent.
+
+	
